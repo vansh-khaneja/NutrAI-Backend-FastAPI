@@ -75,8 +75,9 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     ```
 
 ## Contributors
-[Vansh Khaneja](https://github.com/vansh-khaneja)(AI-ML/Back-end)
-[Shubham Choudhary](https://github.com/shubhamchoudhary-2003)(Front-end)
+[Vansh Khaneja](https://github.com/vansh-khaneja)  (AI-ML/Back-end)
+
+[Shubham Choudhary](https://github.com/shubhamchoudhary-2003)  (Front-end)
 
 
     
