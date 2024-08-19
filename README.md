@@ -55,6 +55,8 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     ```sh
     uvicorn main:app --reload
     ```
+    
+![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/api_test.png?raw=true)
 
 ## Front-End
 
@@ -73,6 +75,9 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     ```sh
     npm run dev
     ```
+
+![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/sample.png?raw=true)
+
 
 ## Contributors
 [Vansh Khaneja](https://github.com/vansh-khaneja)  (AI-ML/Back-end)
