@@ -1,17 +1,16 @@
 # NutrAI Searcher - AI that reveals a product's nutrients with a single photo click
 This repository guides to develop a Multimodal FastAPI application that leverages the [CLIP](https://openai.com/index/clip/) model for analyzing ```images``` or ```text```. The app performs semantic search to identify and retrieve nutritional information by querying a vector database, making it a powerful tool for multimodal data processing. Theis fastapi app is connected with web frontend-end written in Next.js for a better user interaction.
 
-![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/sample1.png?raw=true)
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Execution](#execution)
-- [Contributions](#contributions)
+- [Front-End](#front-end)
+- [Contributors](#contributors)
 
-## Introduction
+## Execution
 
 In this project, we used OpenAI ```CLIP``` model to create images embeddings and compare them with the already created text embeddings present in the Qdrant database and give the respective nutirents. The [FastAPI](https://fastapi.tiangolo.com/) model takes the image file as request and after processing give the nutrients as the response.
 
@@ -57,3 +56,27 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     uvicorn main:app --reload
     ```
 
+## Front-End
+
+1. For the execution of front-end clone this repository.
+    ```sh
+    git clone https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI
+    cd NutrAI-Searcher-FastAPI
+    ```
+    
+2. Install the npm packages.
+   ```sh
+   npm i
+   ```
+   
+3. Run the front-end Next app
+    ```sh
+    npm run dev
+    ```
+
+## Contributors
+[Vansh Khaneja](https://github.com/vansh-khaneja)(AI-ML/Back-end)
+[Shubham Choudhary](https://github.com/shubhamchoudhary-2003)(Front-end)
+
+
+    
