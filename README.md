@@ -41,7 +41,21 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 3. Set up Qdrant:
 
-    Follow the [Qdrant documentation](https://qdrant.tech/documentation/) to install and configure Qdrant on your system.
+    Login to [Qdrant Cloud](https://cloud.qdrant.io/) to get the api_key and url.
+   
+   ```sh
+    qdrant_client = QdrantClient(
+    url="https://xxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxxx.us-east.aws.cloud.qdrant.io:6333",
+    api_key="<your-api-key>",
+    )
+    ```
+
+
+4. Execute the ```main.py``` file by running this command in terminal.
+
+```sh
+    python main.py
+```
 
 ## Execution
 1.Create a .env file and create a variable ```OPENAI_API_KEY``` storing your API key.
@@ -49,11 +63,6 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 2.Download the dataset for this project [here](https://run.unl.pt/bitstream/10362/135618/1/TEGI0570.pdf) or you can try with your own dataset. Just change the path of the PDF here.
 
-```sh
-    loaders = [
-    PyPDFLoader("/content/TEGI0570.pdf"),
-    ]
-```
 
 
 3.Execute the ```main.py``` file by running this command in terminal.
