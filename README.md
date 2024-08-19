@@ -17,18 +17,18 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 ## Features
 
-- Fast and efficient way for data retrieval
-- Best app for Gym 
-- Two stage retrieval for better searching
-- Scalable and high-performance retrieval system
+- Fast and efficient 
+- Best for Diet freaks 
+- Text and Image multimodal searching
+- Easily intgrable with frontend with FastAPI
 
 ## Installation
 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/vansh-khaneja/Multi-Stage-Queries-with-MRL
-    cd Multi-Stage-Queries-with-MRL
+    git clone https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI
+    cd NutrAI-Searcher-FastAPI
     ```
 
 2. Set up the Python environment and install dependencies:
