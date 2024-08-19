@@ -50,25 +50,9 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     ```
 
 
-4. Execute the ```main.py``` file by running this command in terminal.
+4. Execute the ```main.py``` file by running this command to run the API.
 
     ```sh
-        python main.py
+    uvicorn main:app --reload
     ```
-
-## Execution
-1.Create a .env file and create a variable ```OPENAI_API_KEY``` storing your API key.
-
-
-2.Download the dataset for this project [here](https://run.unl.pt/bitstream/10362/135618/1/TEGI0570.pdf) or you can try with your own dataset. Just change the path of the PDF here.
-
-
-
-3.Execute the ```main.py``` file by running this command in terminal.
-
-```sh
-    python main.py
-```
-
-## Contribution
 
