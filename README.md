@@ -1,7 +1,6 @@
 # NutrAI Searcher - AI that reveals a product's nutrients with a single photo click
 This repository guides to develop a Multimodal FastAPI application that leverages the [CLIP](https://openai.com/index/clip/) model for analyzing ```images``` or ```text```. The app performs semantic search to identify and retrieve nutritional information by querying a vector database, making it a powerful tool for multimodal data processing. Theis fastapi app is connected with web frontend-end written in Next.js for a better user interaction.
 
-![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/sample.png?raw=true)
 
 ## Table of Contents
 
@@ -53,9 +52,9 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 4. Execute the ```main.py``` file by running this command in terminal.
 
-```sh
-    python main.py
-```
+    ```sh
+        python main.py
+    ```
 
 ## Execution
 1.Create a .env file and create a variable ```OPENAI_API_KEY``` storing your API key.
