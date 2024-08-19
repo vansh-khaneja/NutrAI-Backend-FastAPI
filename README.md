@@ -48,9 +48,9 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
     api_key="<your-api-key>",
     )
     ```
+4. Run the ```data_upload.ipynb``` in jupyter notebook to setup and upload data in vector database.
 
-
-4. Execute the ```main.py``` file by running this command to run the API.
+5. Execute the ```main.py``` file by running this command to run the API.
 
     ```sh
     uvicorn main:app --reload
