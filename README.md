@@ -60,10 +60,11 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 ## Front-End
 
-1. For the execution of front-end refer this repository.
+1. For the execution of front-end refer this [repository](https://github.com/shubhamchoudhary-2003/NutrAI-Frontend).
     ```sh
    https://github.com/shubhamchoudhary-2003/NutrAI-Frontend
     ```
+
     
 
 ![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/sample.png?raw=true)
