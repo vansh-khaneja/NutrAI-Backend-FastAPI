@@ -62,7 +62,7 @@ In this project, we used OpenAI ```CLIP``` model to create images embeddings and
 
 1. For the execution of front-end refer this repository.
     ```sh
-   clone https://github.com/shubhamchoudhary-2003/NutrAI-Frontend
+   https://github.com/shubhamchoudhary-2003/NutrAI-Frontend
     ```
     
 
